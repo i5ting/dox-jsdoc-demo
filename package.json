@@ -1,0 +1,23 @@
+{
+  "name": "dox-jsdoc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "doc": "./node_modules/.bin/dox < util.js > myfile.json &&  ./node_modules/.bin/jsdoc . -c myfile.json -d docs && open docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/dox-jsdoc-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/dox-jsdoc-demo/issues"
+  },
+  "homepage": "https://github.com/i5ting/dox-jsdoc-demo#readme",
+  "devDependencies": {
+    "dox": "^0.8.1",
+    "jsdoc": "^3.4.0"
+  }
+}
